@@ -16,7 +16,7 @@ def RGB(event, x, y, flags, param):
 cv2.namedWindow('RGB')
 cv2.setMouseCallback('RGB', RGB)
 
-cap = cv2.VideoCapture('veh2.mp4')
+cap = cv2.VideoCapture('cars.mp4')
 
 # Load the COCO class names
 with open("coco.txt", "r") as my_file:
